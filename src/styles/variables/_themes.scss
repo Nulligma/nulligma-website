@@ -1,0 +1,235 @@
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
+@import "../../../node_modules/bootstrap/scss/mixins";
+
+// $text-muted: #aeaed5;
+
+// $headings-color: #000 !default;
+// $border-color: #e1e1f0;
+
+// // Other Color
+// $orange: #ff8853;
+// $skyblue: #00aeff;
+// $maroon: #9e0168;
+// $yellow: #ffa808;
+// $red: #ff586e;
+// $green: #029e76;
+// $blue: #5543d1;
+
+// // Body
+// $body-bg: #fff;
+// $body-color: #505489;
+// //background-color: $body-bg;
+
+// $primary-light: rgba($primary, 0.1);
+// $secondary-light: rgba($secondary, 0.1);
+// $success-light: rgba($success, 0.1);
+// $warning-light: rgba($warning, 0.1);
+// $danger-light: rgba($danger, 0.1);
+// $info-light: rgba($info, 0.1);
+// $dark-light: rgba($dark, 0.1);
+// $white-light: rgba($light, 0.1);
+// $yellow-light: rgba($yellow, 0.1);
+
+$primary: var(--primary);
+$secondary: var(--secondary);
+$success: var(--success);
+$info: var(--info);
+$danger: var(--danger);
+$warning: var(--warning);
+$light: var(--light);
+$dark: var(--dark);
+
+$text-muted: var(--text-muted);
+$nav-bg: var(--nav-bg);
+
+$bodyBg: var(--body-bg);
+$bodyColor: var(--bodyColor);
+
+$orange: #ff8853;
+$skyblue: #00aeff;
+$maroon: #9e0168;
+$yellow: #ffa808;
+$red: #ff586e;
+$green: #029e76;
+$blue: #5543d1;
+
+$yellow-light: rgba($yellow, 0.1);
+
+$primary-light: var(--primary-light);
+$secondary-light: var(--secondary-light);
+$success-light: var(--success-light);
+$warning-light: var(--warning-light);
+$danger-light: var(--danger-light);
+$info-light: var(--info-light);
+$dark-light: var(--dark-light);
+$white-light: var(--white-light);
+
+body {
+  $pri: #896eff;
+  $sec: #1f2471;
+  $suc: #029e76;
+  $inf: #00aeff;
+  $dan: #ff5269;
+  $war: #fea500;
+  $lig: #fff;
+  $dar: #262f5a;
+
+  $tmut: #896eff;
+  $navBg: #aeaed5;
+
+  $bbg: #fff;
+  $bcolor: #505489;
+
+  --primary: #{$pri};
+  --secondary: #{$sec};
+  --success: #{$suc};
+  --info: #{$inf};
+  --warning: #{$war};
+  --danger: #{$dan};
+  --light: #{$lig};
+  --dark: #{$dar};
+
+  --body-bg: #{$bbg};
+  --bodyColor: #{$bcolor};
+
+  --text-muted: #{$tmut};
+  --nav-bg: #{$navBg};
+
+  --primary-light: #{rgba($pri, 0.1)};
+  --secondary-light: #{rgba($sec, 0.1)};
+  --success-light: #{rgba($suc, 0.1)};
+  --warning-light: #{rgba($war, 0.1)};
+  --danger-light: #{rgba($dan, 0.1)};
+  --info-light: #{rgba($inf, 0.1)};
+  --dark-light: #{rgba($dar, 0.1)};
+  --white-light: #{rgba($lig, 0.1)};
+
+  $theme-colors: (
+    "primary": $pri,
+    "secondary": $sec,
+    "success": $suc,
+    "info": $inf,
+    "danger": $dan,
+    "warning": $war,
+    "light": $lig,
+    "dark": $dar,
+    "text-muted": $tmut,
+  );
+
+  @each $color, $value in $theme-colors {
+    --#{$variable-prefix}#{$color}: #{$value};
+  }
+
+  $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+  @each $color, $value in $theme-colors-rgb {
+    --#{$color}-rgb: #{$value};
+    --#{$variable-prefix}#{$color}-rgb: #{$value};
+  }
+
+  --#{$variable-prefix}body-color: #{$bcolor};
+  --#{$variable-prefix}body-bg: #{$bbg};
+
+  //@import "~bootstrap/scss/bootstrap";
+}
+
+body.dark {
+  -webkit-font-smoothing: antialiased;
+
+  $pri: #ff550b;
+  $sec: #c1b6b4;
+  $suc: #015668;
+  $inf: #0f81c7;
+  $dan: #ff304f;
+  $war: #0de2ea;
+  $lig: #fff0ea;
+  $dar: #000000;
+
+  $tmut: #aeaed5;
+  $navBg: #181a1b;
+
+  $bbg: #000000;
+  $bcolor: #808080;
+
+  --primary: #{$pri};
+  --secondary: #{$sec};
+  --success: #{$suc};
+  --info: #{$inf};
+  --warning: #{$war};
+  --danger: #{$dan};
+  --light: #{$lig};
+  --dark: #{$dar};
+
+  --body-bg: #{$bbg};
+  --bodyColor: #{$bcolor};
+
+  --text-muted: #{rgba($pri, 0.1)};
+  --nav-bg: #{$navBg};
+
+  --primary-light: #{rgba($pri, 0.1)};
+  --secondary-light: #{rgba($sec, 0.1)};
+  --success-light: #{rgba($suc, 0.1)};
+  --warning-light: #{rgba($war, 0.1)};
+  --danger-light: #{rgba($dan, 0.1)};
+  --info-light: #{rgba($inf, 0.1)};
+  --dark-light: #{rgba($dar, 0.1)};
+  --white-light: #{rgba($lig, 0.1)};
+
+  $theme-colors: (
+    "primary": $pri,
+    "secondary": $sec,
+    "success": $suc,
+    "info": $inf,
+    "danger": $dan,
+    "warning": $war,
+    "light": $lig,
+    "dark": $dar,
+    "text-muted": $tmut,
+  );
+
+  @each $color, $value in $theme-colors {
+    --#{$variable-prefix}#{$color}: #{$value};
+  }
+
+  $theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+  @each $color, $value in $theme-colors-rgb {
+    --#{$variable-prefix}#{$color}-rgb: #{$value};
+  }
+
+  --#{$variable-prefix}body-color: #{$bcolor};
+  --#{$variable-prefix}body-bg: #{$bbg};
+
+  //@import "~bootstrap/scss/bootstrap";
+}
+
+body.colorful {
+  $primary: #896eff;
+  $secondary: #1f2471 !default;
+  $success: #029e76 !default;
+  $info: #00aeff !default;
+  $warning: #fea500 !default;
+  $danger: #ff5269 !default;
+  $light: #faf8f2 !default;
+  $dark: #262f5a;
+
+  $text-muted: #aeaed5;
+
+  $headings-color: #000 !default;
+  $border-color: #e1e1f0;
+
+  // Other Color
+  $orange: #ff8853;
+  $skyblue: #00aeff;
+  $maroon: #9e0168;
+  $yellow: #ffa808;
+  $red: #ff586e;
+  $green: #029e76;
+  $blue: #5543d1;
+
+  // Body
+  $body-bg: lightblue;
+  $body-color: pink;
+
+  background-color: $body-bg;
+  color: $body-color;
+}

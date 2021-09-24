@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
+    siteUrl: "http://www.nulligma.com",
     title: "Nulligma",
   },
   plugins: [
     "gatsby-plugin-sass",
+    "gatsby-plugin-dark-mode",
     "gatsby-plugin-image",
     {
       resolve: "gatsby-plugin-manifest",

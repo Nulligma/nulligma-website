@@ -1,0 +1,73 @@
+:root {
+  --primary: #896eff;
+}
+
+body {
+  background-color: #fff;
+  --textColor: #222;
+
+  --gradient: linear-gradient(to right, #896eff 0, #5f3bff 51%, #896eff 100%);
+  --gradient-sec: linear-gradient(
+    to right,
+    #130065 0,
+    #2b0ead 51%,
+    #130065 100%
+  );
+
+  --primary: #896eff;
+  --secondary: #1f2471;
+  --success: #029e76;
+  --info: #00aeff;
+  --warning: #fea500;
+  --danger: #ff5269;
+  --light: #faf8f2;
+  --dark: #262f5a;
+
+  --text-muted: #aeaed5;
+
+  --headings-color: #000;
+  --border-color: #e1e1f0;
+
+  --orange: #ff8853;
+  --skyblue: #00aeff;
+  --maroon: #9e0168;
+  --yellow: #ffa808;
+  --red: #ff586e;
+  --green: #029e76;
+  --blue: #5543d1;
+
+  --body-bg: #fff;
+  --body-color: #505489;
+}
+
+body.dark {
+  --primary: #eee;
+  --secondary: #888;
+  --success: #029e76;
+  --info: #00aeff;
+  --warning: #fea500;
+  --danger: #ff5269;
+  --light: #faf8f2;
+  --dark: #262f5a;
+
+  --text-muted: #aeaed5;
+
+  --headings-color: #000;
+  --border-color: #e1e1f0;
+
+  --orange: #ff8853;
+  --skyblue: #00aeff;
+  --maroon: #9e0168;
+  --yellow: #ffa808;
+  --red: #ff586e;
+  --green: #029e76;
+  --blue: #5543d1;
+
+  --body-bg: #222;
+  --body-color: #8187da;
+}
+
+body.colorful {
+  background-color: #85cdcb;
+}
+/*# sourceMappingURL=global.css.map */
