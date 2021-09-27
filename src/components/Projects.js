@@ -51,7 +51,7 @@ function Projects() {
       category: "Apps",
       description:
         "Short-form videos sharing app.\nSocial media app for short videos\nLike TikTok",
-      link: "https://play.google.com/store/apps/details?id=com.nulligma.mixmax",
+      link: "/project_downloads/mixmax.apk",
       buttonTxt: "Install (Android)",
       imageName: "mixMax",
     },
@@ -59,7 +59,7 @@ function Projects() {
       title: "GameOn",
       category: "Apps",
       description: "Video game live streaming app like twitch",
-      link: "https://play.google.com/store/apps/details?id=com.nulligma.mixmax",
+      link: "/project_downloads/gameon.apk",
       buttonTxt: "Install (Android)",
       imageName: "twitch",
     },
@@ -68,8 +68,8 @@ function Projects() {
       category: "Games",
       description:
         "An addictive match 2 puzzle game.\nVery polished graphics paired\nwith well developed gameplay.",
-      link: "http://nulligma.com/projects/TastyTreatPuzzle/HTML/",
-      buttonTxt: "Play now",
+      link: "https://play.google.com/store/apps/details?id=com.nulligma.TastyTreatPuzzle",
+      buttonTxt: "Install (Android)",
       imageName: "ttp",
     },
     {
@@ -86,7 +86,7 @@ function Projects() {
       category: "Games",
       description:
         "Number addition and substraction puzzle game\nMinimal graphics done correctly.\nEasy to understand, hard to master gameplay",
-      link: "http://nulligma.com/projects/4x/HTML/",
+      link: "https://nulligma.itch.io/4x-number-puzzle",
       buttonTxt: "Play now",
       imageName: "4x",
     },
@@ -95,7 +95,7 @@ function Projects() {
       category: "Games",
       description:
         "Arrow shooting game\nKill birds -> sell -> buy upgrades\nKill more birds",
-      link: "http://nulligma.com/projects/bird_hunter/",
+      link: "https://nulligma.itch.io/bird-hunter",
       buttonTxt: "Play now",
       imageName: "bh",
     },
@@ -147,7 +147,7 @@ function Projects() {
       category: "Websites",
       description:
         "Web App for video streaming\nusername: shantanu@gmail.com\npassword: 123456\nGo to myProfile to access admin panel",
-      link: "http://nulligma.com/projects/FlutterWeb/netflix/",
+      link: "https://inspiring-shirley-9df319.netlify.app/#/",
       buttonTxt: "Visit",
       imageName: "superFlix-web",
     },
@@ -156,7 +156,7 @@ function Projects() {
       category: "Websites",
       description:
         "Web App for short video sharing\n-Wall feed for short videos like FB or tikok\n-Profile page and in-built messaging system",
-      link: "http://nulligma.com/projects/FlutterWeb/TikTok/",
+      link: "https://trusting-poincare-801a02.netlify.app/",
       buttonTxt: "Visit",
       imageName: "mixmax-web",
     },
@@ -165,7 +165,7 @@ function Projects() {
       category: "Websites",
       description:
         "Web App for video game streaming\n-In-Built system for live gamers\n-Dark/Light theme switcher\n-Customizable pages for each \ngames and gamer's profile",
-      link: "http://nulligma.com/projects/FlutterWeb/Twitch/",
+      link: "https://flamboyant-hodgkin-24dbc1.netlify.app/",
       buttonTxt: "Visit",
       imageName: "twitch-web",
     },
@@ -246,7 +246,7 @@ function Projects() {
       title: "Just Type Branding",
       category: "Logo & Branding",
       description:
-        "A stunning & unique logo/brand design\n-To fit the product’s description\n-Depicts user & expert communicating\nDesigned with the letters 'J' & 't'\nShort for Just type",
+        "A stunning & unique logo/brand design\n-To fit the product’s description\n-Depicts user & expert communicating\n-Designed with the letters 'J' & 't'\nShort for Just type",
       buttonTxt: "View Full Branding",
       imageName: "justtype-branding",
     },
