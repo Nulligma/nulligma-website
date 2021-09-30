@@ -34,7 +34,7 @@ function Aboutus({ theme }) {
               measurement and feedback from the client help us to do things the
               right way and at the right cost.
             </p>
-            <h4 className="m-b30">Director Shantanu Kulkarni</h4>
+            <h4 className="m-b30">Director</h4>
           </div>
         </div>
       </div>
