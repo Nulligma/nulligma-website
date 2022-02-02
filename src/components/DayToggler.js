@@ -12,14 +12,14 @@ function DayToggler({ intialTheme, changeTheme }) {
         }}
       >
         <img
-          src="https://image.flaticon.com/icons/svg/1164/1164954.svg"
+          src= "/icons/sun.png"
           width="224"
           height="224"
           alt="Light theme"
           title="Light theme"
         />
         <img
-          src="https://image.flaticon.com/icons/svg/2033/2033921.svg"
+          src="/icons/half-moon.png"
           width="224"
           height="224"
           alt="Dark theme"
