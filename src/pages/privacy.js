@@ -91,7 +91,7 @@ const Privacy = () => {
                     and you are aware that your child has provided us with
                     personal information, please contact me so that
                     I will be able to do the necessary actions.
-                  </p></div> <!----> <p><strong>Changes to This Privacy Policy</strong></p> <p>
+                  </p></div> <p><strong>Changes to This Privacy Policy</strong></p> <p>
                   I may update our Privacy Policy from
                   time to time. Thus, you are advised to review this page
                   periodically for any changes. I will
