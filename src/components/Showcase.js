@@ -24,7 +24,7 @@ function Showcase({ theme }) {
                   experiences.
                 </p>
                 <button className="phone cta">Contact us</button>
-                <div className="phone number ps-4">934-0708-756</div>
+                <div className="phone number ps-4">shantanu@nulligma.com</div>
               </div>
             </div>
             <div className="col-md-6 imgRotating pt-3">
