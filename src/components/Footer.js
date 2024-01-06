@@ -21,9 +21,9 @@ function Footer() {
                     </div>
                     <div className="icon-content">
                       <p>
-                        +91 934-0708-756
+                        support email
                         <br />
-                        mail@nulligma.com
+                        shantanu@nulligma.com
                       </p>
                     </div>
                   </div>
@@ -146,7 +146,7 @@ function Footer() {
           <div className="row">
             <div className="col-sm-12 text-center">
               <span className="copyright-text">
-                Copyright © 2021 Nulligma. All rights reserved.
+                Copyright © 2024 Nulligma. All rights reserved.
               </span>
             </div>
           </div>
