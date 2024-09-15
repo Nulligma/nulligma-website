@@ -23,8 +23,6 @@ function Showcase({ theme }) {
                   verbal, and experiential standards that shape entire
                   experiences.
                 </p>
-                <button className="phone cta">Contact us</button>
-                <div className="phone number ps-4">shantanu@nulligma.com</div>
               </div>
             </div>
             <div className="col-md-6 imgRotating pt-3">
