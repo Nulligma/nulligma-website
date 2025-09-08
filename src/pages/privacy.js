@@ -4,7 +4,7 @@ const Privacy = () => {
   return (
     <div>
     <strong>Privacy Policy</strong> <p>
-                  Nulligma built the Tasty Treat Puzzle, Paintbook, mixmatch app as
+                  Nulligma built the Tasty Treat Puzzle, Paintbook, Fasting & Navratri as
                   a Free app. This SERVICE is provided by
                   Nulligma at no cost and is intended for use as
                   is.
@@ -21,7 +21,7 @@ const Privacy = () => {
                 </p> <p>
                   The terms used in this Privacy Policy have the same meanings
                   as in our Terms and Conditions, which are accessible at
-                  Tasty Treat Puzzle, Paintbook, mixmatch unless otherwise defined in this Privacy Policy.
+                  Tasty Treat Puzzle, Paintbook, Fasting & Navratr unless otherwise defined in this Privacy Policy.
                 </p> <p><strong>Information Collection and Use</strong></p> <p>
                   For a better experience, while using our Service, I
                   may require you to provide us with certain personally
